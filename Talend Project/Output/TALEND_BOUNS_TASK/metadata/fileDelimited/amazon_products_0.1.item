@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_GUhL8bBSEe-5Pdi0YSs3ZQ" name="amazon_products" dataPackage="_GUhL8rBSEe-5Pdi0YSs3ZQ" Server="Localhost 127.0.0.1" FilePath="D:/Menoufia National University 2024-2025/Faculty of Computers &amp; Artifcial intellegance/Level 2/Semester 1/Introduction to data science - Dr.أميره عبدالعاطي/Final Project/Talend Project/amazon_product_data.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_GUhL8rBSEe-5Pdi0YSs3ZQ" name="default" dataManager="_GUhL8bBSEe-5Pdi0YSs3ZQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GUhL87BSEe-5Pdi0YSs3ZQ" id="_5IU3cLBREe-5Pdi0YSs3ZQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL9LBSEe-5Pdi0YSs3ZQ" label="Product_ID" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL9bBSEe-5Pdi0YSs3ZQ" label="Product_Name" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL9rBSEe-5Pdi0YSs3ZQ" label="Product_Category" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL97BSEe-5Pdi0YSs3ZQ" label="Price__USD_" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL-LBSEe-5Pdi0YSs3ZQ" label="Rating" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL-bBSEe-5Pdi0YSs3ZQ" label="Number_of_Reviews" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL-rBSEe-5Pdi0YSs3ZQ" label="Seller_Name" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL-7BSEe-5Pdi0YSs3ZQ" label="Product_Availability" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL_LBSEe-5Pdi0YSs3ZQ" label="Shipping_Cost" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GUhL_bBSEe-5Pdi0YSs3ZQ" label="Discount_Percentage" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
