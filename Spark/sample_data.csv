@@ -1,10 +1,3 @@
-id,category,value
-1,A,23
-2,B,45
-3,A,34
-4,B,30
-5,C,67
-6,A,21
-7,C,45
-8,B,39
-9,A,56
+version https://git-lfs.github.com/spec/v1
+oid sha256:da00ca815484900c601944b6ec10186be5d6ff6a60e521f2abce29a139281b18
+size 81
